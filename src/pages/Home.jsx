@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useQuery } from '@tanstack/react-query';
-import { base44 } from '@/api/base44Client';
+import music from '@/data/music.json'
+import highlights from '@/data/commentHighlights.json'
 import { Youtube, Music, DollarSign, Disc, Lock, Star } from 'lucide-react';
 import HeroLinkCard from '@/components/home/HeroLinkCard';
 import ReleaseItem from '@/components/home/ReleaseItem';
